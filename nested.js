@@ -6,6 +6,15 @@ const first = () => {
         }
         return 5;
     }
-    return second() + x + third();
+    const fourth = () => {
+        const six = () =>{
+            return 7;
+        }
+        return six();
+    }
+    const s = second();
+    const d = fourth();
+    const f = x + d;
+    return s + f;
 }
 console.log(first());
