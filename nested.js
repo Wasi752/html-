@@ -10,11 +10,17 @@ const first = () => {
         const six = () =>{
             return 7;
         }
-        return six();
+        return six;
     }
-    const s = second();
-    const d = fourth();
-    const f = x + d;
-    return s + f;
+    const p = fourth();
+    const s = second;
+    const d = fourth;
+    const f = x + p();
+    const seven = ()=>{
+        return s() + f;
+    }
+    const t = seven;
+    return t();
+
 }
 console.log(first());
