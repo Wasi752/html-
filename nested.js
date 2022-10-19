@@ -23,4 +23,5 @@ const first = () => {
     return t;
 
 }
-console.log(first());
+const ababil = first();
+console.log(ababil());
