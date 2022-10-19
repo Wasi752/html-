@@ -20,7 +20,7 @@ const first = () => {
         return s() + f;
     }
     const t = seven;
-    return t();
+    return t;
 
 }
 console.log(first());
