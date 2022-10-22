@@ -1,20 +1,9 @@
 let c = 300;
 const p = 7;
 const f = () => {
-    let amanah;
-    let umana;
-    const rahim = (b) => {
-        umana = b;
-        return 100 + amanah + umana;
-    }
-    const alif = (c)=> {
-        amanah = c;
-        return rahim;
-    }
-    const w = (b)=> {
-        amanah = b;
-        return alif;
-    }
+    const rahim = (b) => 100 + b;
+    const alif = ()=> rahim;
+    const w = ()=> alif;
     return w;
 }
 const x = f();
