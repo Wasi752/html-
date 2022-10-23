@@ -1,6 +1,6 @@
 let c = 300;
 const p = 7;
-const f = () => ()=> ()=> (b)=> 100 + b;
+const f = () => (b)=> (a)=> ()=> a + b;
 const x = f();
 const z = x(100);
 const q = z(60);
