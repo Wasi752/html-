@@ -11,5 +11,5 @@ const arth = (a) => {
     return a + 100;
 }
 console.log(asman(arth, mati)); 
-//console.log(asman(mati, arth)); 
-// 220 + 100  
+console.log(asman(mati, arth)); 
+// 220 + 100, 380 + 150  
