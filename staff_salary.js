@@ -15,6 +15,3 @@ return everyone;
 } 
 console.log(basic());
 
-const c = 20000;
-console.log((c + (c / 100 * 5)) / 100 * 10 / 100 * 10);
-    
