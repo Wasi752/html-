@@ -1,11 +1,3 @@
-/*** let basic;
-let yearly_total;
-const yearlySaary = () => {
-    return monthlySalary + month;
-const monthlySalary = () => {
-    const month = ()=> {
-        return 12;
-    }}} ***/
 const etc = ()=>{
         const z = [40000, 34000, 28000, 25000, 20000, 18000, 15000];
         const basic = z
@@ -21,11 +13,3 @@ const etc = ()=>{
     return basic;
 }
    console.log(etc()); 
-
-    
-/***
-const saalry = (b, c)=>{
-    return b + ect;
-    }
-console.log(saalry(15000, ect(34000)));
-***/
