@@ -12,7 +12,9 @@ const asman = (f, g) => {
 const arth = (a) => {
     return a + 100;
 }
-console.log(asman((x)=> x * x , mati)); 
+console.log(asman(arth, mati));
+console.log(asman (mati, arth));
+//console.log(asman((x)=> x * x , mati)); 
 // ruhama (mati, ano ) 2755600 + 100 = 
-2755700, 2755700
+
 
