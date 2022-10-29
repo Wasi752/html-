@@ -46,11 +46,10 @@ const subTotal = (a, b, c, d, e) => {
     const total = nam.map((k, v) => bas[v] + inc[v] + jes[v] + hou[v] + mah[v]);
     return total;
 }
+const sub = subTotal(basic, increment, jeshdhata, houseRent, maharga);
 const staffSalary = (a, b, c, d, e, f)=>{
     const x = n.map((y, w) => ` ${w+1} ${n[w]} ${a[w]} ${b[w]} ${c[w]} ${d[w]} ${e[w]} ${f[w]} `);
     return x;
 }
-const sub = subTotal(basic, increment, jeshdhata, houseRent, maharga);
- 
 console.log(staffSalary(bas, inc, jes, hou, mah, sub));
     
