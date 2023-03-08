@@ -1,4 +1,7 @@
+const alif = 10;
+let ba = 20;
 const mati = (a) => {
+    ba = 50;
     return a * 2;
 }
 
